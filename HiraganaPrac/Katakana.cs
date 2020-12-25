@@ -6,56 +6,69 @@ namespace HiraganaPrac
 {
     class Katakana : IJapPronounce1
     {
-        public char A { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char I { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char U { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char E { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char O { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char KA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char KI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char KU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char KE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char KO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char SA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char SHI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char SU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char SE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char SO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char TA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char CHI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char TSU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char TE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char TO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char NA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char NI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char NU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char NE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char NO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char HA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char HI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char FU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char HE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char HO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char MA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char MI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char MU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char ME { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char MO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char YA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char YU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char YO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char RA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char RI { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char RU { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char RE { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char RO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char WA { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char WO { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public char N { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public char A { get; set; }
+        public char I { get; set; }
+        public char U { get; set; }
+        public char E { get; set; }
+        public char O { get; set; }
 
+        public char KA { get; set; }
+        public char KI { get; set; }
+        public char KU { get; set; }
+        public char KE { get; set; }
+        public char KO { get; set; }
 
-        //Katakana constructor
-        //initiallize them with the proper chars later
-        public Katakana() { }
+        public char SA { get; set; }
+        public char SHI { get; set; }
+        public char SU { get; set; }
+        public char SE { get; set; }
+        public char SO { get; set; }
+
+        public char TA { get; set; }
+        public char CHI { get; set; }
+        public char TSU { get; set; }
+        public char TE { get; set; }
+        public char TO { get; set; }
+
+        public char NA { get; set; }
+        public char NI { get; set; }
+        public char NU { get; set; }
+        public char NE { get; set; }
+        public char NO { get; set; }
+
+        public char HA { get; set; }
+        public char HI { get; set; }
+        public char FU { get; set; }
+        public char HE { get; set; }
+        public char HO { get; set; }
+
+        public char MA { get; set; }
+        public char MI { get; set; }
+        public char MU { get; set; }
+        public char ME { get; set; }
+        public char MO { get; set; }
+
+        public char YA { get; set; }
+        public char YU { get; set; }
+        public char YO { get; set; }
+
+        public char RA { get; set; }
+        public char RI { get; set; }
+        public char RU { get; set; }
+        public char RE { get; set; }
+        public char RO { get; set; }
+
+        public char WA { get; set; }
+        public char WO { get; set; }
+
+        public char N { get; set; }
+
+        //46 total chars
+
+        public static int KataSelect(int min, int max)
+        {
+            var r = new Random();
+            return r.Next(min, max);
+        }
     }
 }

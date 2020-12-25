@@ -1,0 +1,13 @@
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.exe
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.deps.json
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.runtimeconfig.json
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.runtimeconfig.dev.json
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.dll
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\bin\Debug\netcoreapp3.1\HiraganaPrac.pdb
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.csprojAssemblyReference.cache
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.AssemblyInfoInputs.cache
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.AssemblyInfo.cs
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.csproj.CoreCompileInputs.cache
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.dll
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.pdb
+C:\Users\mrpok\Documents\repos\HiraganaPrac\HiraganaPrac\obj\Debug\netcoreapp3.1\HiraganaPrac.genruntimeconfig.cache

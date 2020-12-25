@@ -6,7 +6,10 @@ namespace HiraganaPrac
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var hira = new Hiragana();
+
+            Console.WriteLine(hira.A);
+
         }
     }
 }
