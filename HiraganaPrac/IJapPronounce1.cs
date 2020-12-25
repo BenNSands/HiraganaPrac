@@ -62,5 +62,6 @@ namespace HiraganaPrac
         public char WO { get; set; }
 
         public char N { get; set; }
+
     }
 }

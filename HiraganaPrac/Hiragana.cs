@@ -4,64 +4,64 @@ using System.Text;
 
 namespace HiraganaPrac
 {
-    class Hiragana : IJapPronounce1
+    public class Hiragana : IJapPronounce1
     {
         public char A { get; set; } = 'あ';
-        public char I { get; set; }
-        public char U { get; set; }
-        public char E { get; set; }
-        public char O { get; set; }
+        public char I { get; set; }　=　'い';
+        public char U { get; set; } = 'う';
+        public char E { get; set; } = 'え';
+        public char O { get; set; } = 'お';
 
-        public char KA { get; set; }
-        public char KI { get; set; }
-        public char KU { get; set; }
-        public char KE { get; set; }
-        public char KO { get; set; }
+        public char KA { get; set; } = 'か';
+        public char KI { get; set; } = 'き';
+        public char KU { get; set; } = 'く';
+        public char KE { get; set; } = 'け';
+        public char KO { get; set; } = 'こ';
 
-        public char SA { get; set; }
-        public char SHI { get; set; }
-        public char SU { get; set; }
-        public char SE { get; set; }
-        public char SO { get; set; }
+        public char SA { get; set; } = 'さ';
+        public char SHI { get; set; } = 'し';
+        public char SU { get; set; } = 'す';
+        public char SE { get; set; } = 'せ';
+        public char SO { get; set; } = 'そ';
 
-        public char TA { get; set; }
-        public char CHI { get; set; }
-        public char TSU { get; set; }
-        public char TE { get; set; }
-        public char TO { get; set; }
+        public char TA { get; set; } = 'た';
+        public char CHI { get; set; } = 'ち';
+        public char TSU { get; set; } = 'つ';
+        public char TE { get; set; } = 'て';
+        public char TO { get; set; } = 'と';
 
-        public char NA { get; set; }
-        public char NI { get; set; }
-        public char NU { get; set; }
-        public char NE { get; set; }
-        public char NO { get; set; }
+        public char NA { get; set; } = 'な';
+        public char NI { get; set; } = 'に';
+        public char NU { get; set; } = 'ぬ';
+        public char NE { get; set; } = 'ね';
+        public char NO { get; set; } = 'の';
 
-        public char HA { get; set; }
-        public char HI { get; set; }
-        public char FU { get; set; }
-        public char HE { get; set; }
-        public char HO { get; set; }
+        public char HA { get; set; } = 'は';
+        public char HI { get; set; } = 'ひ';
+        public char FU { get; set; } = 'ふ';
+        public char HE { get; set; } = 'へ';
+        public char HO { get; set; } = 'ほ';
 
-        public char MA { get; set; }
-        public char MI { get; set; }
-        public char MU { get; set; }
-        public char ME { get; set; }
-        public char MO { get; set; }
+        public char MA { get; set; } = 'ま';
+        public char MI { get; set; } = 'み';
+        public char MU { get; set; } = 'む';
+        public char ME { get; set; } = 'め';
+        public char MO { get; set; } = 'も';
 
-        public char YA { get; set; }
-        public char YU { get; set; }
-        public char YO { get; set; }
+        public char YA { get; set; } = 'や';
+        public char YU { get; set; } = 'ゆ';
+        public char YO { get; set; } = 'よ';
 
-        public char RA { get; set; }
-        public char RI { get; set; }
-        public char RU { get; set; }
-        public char RE { get; set; }
-        public char RO { get; set; }
+        public char RA { get; set; } = 'ら';
+        public char RI { get; set; } = 'り';
+        public char RU { get; set; } = 'る';
+        public char RE { get; set; } = 'れ';
+        public char RO { get; set; } = 'ろ';
 
-        public char WA { get; set; }
-        public char WO { get; set; }
+        public char WA { get; set; } = 'わ';
+        public char WO { get; set; } = 'を';
 
-        public char N { get; set; }
+        public char N { get; set; } = 'ん';
 
 
         //46 total chars
