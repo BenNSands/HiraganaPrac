@@ -65,13 +65,5 @@ namespace HiraganaPrac
 
 
         //46 total chars
-
-
-        public static int HiraSelect(int min, int max)
-        {
-            var r = new Random();
-            return r.Next(min, max);
-        }
-
     }
 }

@@ -8,6 +8,7 @@ namespace HiraganaPrac
         {
             var hira = new Hiragana();
             var kata = new Katakana();
+            var ran = new CharSelect();
             var scoreTotal = 0;
             var correct = 0;
             var wrong = 0;
@@ -20,7 +21,7 @@ namespace HiraganaPrac
                 switch (hOrK)
                 {
                     case "hiragana":
-                        var display = hira.HiraSelect(1, 46);
+                       int x = ran.RanSelect(1, 46);
                         break;
                     case "katakana":
                         break;

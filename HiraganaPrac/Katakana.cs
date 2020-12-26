@@ -64,11 +64,5 @@ namespace HiraganaPrac
         public char N { get; set; } = 'ン';
 
         //46 total chars
-
-        public static int KataSelect(int min, int max)
-        {
-            var r = new Random();
-            return r.Next(min, max);
-        }
     }
 }
